@@ -1,7 +1,10 @@
-Dim Trash As Variant
-Dim IE As New InternetExplorer
-Dim Elts As IHTMLElementCollection
-Dim HtmlDoc As HTMLDocument
+Option Explicit
+Sub WebScrolling()
+
+    Dim Trash As Variant
+    Dim IE As New InternetExplorer
+    Dim Elts As IHTMLElementCollection
+    Dim HtmlDoc As HTMLDocument
 
    'Chargement d'une page web Google
    'IE.Navigate "https://www.google.fr"
